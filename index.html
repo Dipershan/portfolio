@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <header class="bg-blue-600 p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-white text-2xl font-bold">Dipershan Shrestha</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#about" class="text-white hover:text-gray-200">About</a></li>
+                    <li><a href="#projects" class="text-white hover:text-gray-200">Projects</a></li>
+                    <li><a href="#contact" class="text-white hover:text-gray-200">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-500 text-white text-center py-20">
+        <h2 class="text-4xl font-bold">Software Engineer Intern</h2>
+        <p class="mt-4 text-lg">Building solutions, one line of code at a time.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto py-16">
+        <h2 class="text-3xl font-bold text-center mb-8">About Me</h2>
+        <p class="text-center max-w-2xl mx-auto text-lg">I'm a passionate software engineer intern with experience in JavaScript, React.js, Node.js, and more. I love solving problems and building projects that make a difference.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-200 py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/600x400" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Project Title 1</h3>
+                        <p class="text-gray-700">Brief description of the project. What technologies were used? What problems were solved?</p>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/600x400" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Project Title 2</h3>
+                        <p class="text-gray-700">Brief description of the project. What technologies were used? What problems were solved?</p>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/600x400" alt="Project 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Project Title 3</h3>
+                        <p class="text-gray-700">Brief description of the project. What technologies were used? What problems were solved?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto py-16">
+        <h2 class="text-3xl font-bold text-center mb-8">Contact Me</h2>
+        <form id="contactForm" class="max-w-lg mx-auto">
+            <div class="mb-4">
+                <label for="name" class="block text-gray-700">Name</label>
+                <input type="text" id="name" class="w-full p-2 border rounded-lg" placeholder="Your Name" required>
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700">Email</label>
+                <input type="email" id="email" class="w-full p-2 border rounded-lg" placeholder="Your Email" required>
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-gray-700">Message</label>
+                <textarea id="message" class="w-full p-2 border rounded-lg" rows="4" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white text-center py-4">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
